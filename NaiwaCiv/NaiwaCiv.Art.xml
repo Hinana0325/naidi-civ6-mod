@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..GameArtSpecification>
+	<id>
+		<name text="NaiwaCiv"/>
+		<id text="290AF11F-24C4-4091-B8A1-F988D6004C09"/>
+	</id>
+	<artConsumers>
+		<Element>
+			<consumerName text="UI"/>
+			<relativeArtDefPaths/>
+			<libraryDependencies>
+				<Element text="UITexture"/>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+		<Element>
+			<consumerName text="LeaderFallback"/>
+			<relativeArtDefPaths>
+				<Element text="FallbackLeaders.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies>
+				<Element text="LeaderFallback"/>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+	</artConsumers>
+	<gameLibraries>
+		<Element>
+			<libraryName text="UITexture"/>
+			<relativePackagePaths>
+				<Element text="UILeaders"/>
+			</relativePackagePaths>
+		</Element>
+		<Element>
+			<libraryName text="LeaderFallback"/>
+			<relativePackagePaths>
+				<Element text="LeaderFallbacks"/>
+			</relativePackagePaths>
+		</Element>
+	</gameLibraries>
+	<requiredGameArtIDs>
+		<Element>
+			<name text="Shared"/>
+			<id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
+		</Element>
+	</requiredGameArtIDs>
+</AssetObjects..GameArtSpecification>

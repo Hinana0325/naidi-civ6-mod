@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ===== 城市名：全部取自《奶家族谱》里的成员 ===== -->
+		<Row Tag="LOC_CITY_NAME_NAIWA_1" Language="zh_Hans_CN"><Text>奶蛙大学</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_2" Language="zh_Hans_CN"><Text>奶蛋</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_3" Language="zh_Hans_CN"><Text>小奶蛙</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_4" Language="zh_Hans_CN"><Text>奶鼠</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_5" Language="zh_Hans_CN"><Text>奶狗</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_6" Language="zh_Hans_CN"><Text>奶粉</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_7" Language="zh_Hans_CN"><Text>奶鸡</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_8" Language="zh_Hans_CN"><Text>奶猫</Text></Row>
+
+		<Row Tag="LOC_CITY_NAME_NAIWA_1" Language="en_US"><Text>Milk Frog University</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_2" Language="en_US"><Text>Nai Egg</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_3" Language="en_US"><Text>Little Naiwa</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_4" Language="en_US"><Text>Nai Mouse</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_5" Language="en_US"><Text>Nai Dog</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_6" Language="en_US"><Text>Nai Powder</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_7" Language="en_US"><Text>Nai Chicken</Text></Row>
+		<Row Tag="LOC_CITY_NAME_NAIWA_8" Language="en_US"><Text>Nai Cat</Text></Row>
+
+		<!-- ===== 百科：文明 ===== -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_NAIWA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>2024 年 10 月，有人用 AI 给奶龙生成头像，模型理解偏差，把「暖黄的皮肤、圆滚滚的身子」和「青蛙鼓起的肚子、细长的四肢」缝到了一起。这张图后来被粉丝称作一场「AI 事故」，它有了名字：奶蛙。之后网友不断接着二创，奶蛋、小奶蛙、奶鼠、奶狗、奶粉、奶鸡、奶猫一个个被「奶」了出来，成了今天的奶家。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_NAIWA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>In October 2024, someone asked an AI to make an avatar of Nailoong. The model misread the prompt, welding warm yellow skin and a round body onto a frog's bulging belly and spindly limbs. Fans call it an "AI accident". The result got a name — Naiwa — and the rest of the Nai Family followed.</Text>
+		</Row>
+
+		<!-- ===== 百科：领袖 · 奶帝 ===== -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAIDI_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>十二旒冕冠、黑金龙袍、白玉玺。奶帝是奶家给自己加的最高头衔：形象还是那只眯眼笑的奶蛙，只是坐到了龙椅上。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAIDI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>「奶帝」这个说法在两处二创里同时长出来。一处是斗罗大陆式的修仙戏仿《奶魂大陆》：大陆上每个人十八岁要参加奶魂觉醒，身体随机一个部位变成奶魂形态，部位越重要实力越强；传说曾有人觉醒头部奶魂，成就至高无上的「奶帝」之位，飞升上界。另一处是奶蛙登基的帝王立绘——冕旒一戴、龙袍一披，评论区就改口叫奶帝。两条路殊途同归：给一只只懂得狂笑的黄色生物，配一套人间的最高规格。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAIDI_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Twelve-beaded crown, black-and-gold dragon robe, a jade seal. Nai Di is the highest title the Nai Family gave itself — still the same squinting, laughing frog, just seated on a throne.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAIDI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Two different fan works invented the title at once: a Douluo-style spoof where awakening a "milk soul" in the head grants the supreme position of Nai Di, and imperial portraits of Naiwa in the full crown and dragon robe.</Text>
+		</Row>
+
+		<!-- ===== 首次相遇对白 ===== -->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAIDI_ANY" Language="zh_Hans_CN">
+			<Text>嘎嘎滴辣虾！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAIDI_ANY" Language="en_US">
+			<Text>Ga ga di la xia!</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 文明图标：白色剪影 + 镂空的笑嘴，游戏会用玩家颜色染色 -->
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_22.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_30.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_36.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_44.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_45.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_48.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_50.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_64.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_80.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_CIV" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_CIVILIZATION_NAIWA_256.dds" />
+	</IconTextureAtlases>
+
+	<!-- 领袖图标：彩色奶蛙头像 -->
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_32.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_45.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_50.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_55.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_64.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_80.dds" />
+		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_256.dds" />
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_NAIWA" Atlas="ICON_ATLAS_NAIWA_CIV" Index="0" />
+		<Row Name="ICON_LEADER_NAIWA" Atlas="ICON_ATLAS_NAIWA_LEADER" Index="0" />
+	</IconDefinitions>
+</GameData>

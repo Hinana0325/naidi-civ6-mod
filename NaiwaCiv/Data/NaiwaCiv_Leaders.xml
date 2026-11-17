@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_NAIDI" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_NAIDI" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_NAIDI" Name="LOC_TRAIT_LEADER_NAIDI_NAME" Description="LOC_TRAIT_LEADER_NAIDI_DESCRIPTION" />
+	</Traits>
+
+	<Leaders>
+		<Row LeaderType="LEADER_NAIDI" Name="LOC_LEADER_NAIDI_NAME" InheritFrom="LEADER_DEFAULT" />
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_NAIDI" TraitType="TRAIT_LEADER_NAIDI" />
+	</LeaderTraits>
+
+	<!-- 选文明界面 / 生涯界面的领袖资料 -->
+	<LeaderInfo>
+		<Row LeaderType="LEADER_NAIDI" Header="LOC_LEADER_NAIDI_HEADER" Caption="LOC_LEADER_NAIDI_CAPTION" SortIndex="10" />
+	</LeaderInfo>
+
+	<!-- 领袖台词 -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_NAIDI" Quote="LOC_LEADER_NAIDI_QUOTE" />
+	</LeaderQuotes>
+
+	<!-- 开局加载页：前景用立绘，背景用宫殿图 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_NAIDI" ForegroundImage="LEADER_NAIDI_NEUTRAL" BackgroundImage="LEADER_NAIDI_BACKGROUND" LeaderText="LOC_LOADING_INFO_LEADER_NAIDI" PlayDawnOfManAudio="0" />
+	</LoadingInfo>
+
+	<!-- 领袖特性「奶魂觉醒」：所有城市 +1 生产力 -->
+	<Modifiers>
+		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" />
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" Name="Amount" Value="1" />
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_NAIDI" ModifierId="MOD_NAIDI_CITY_PRODUCTION" />
+	</TraitModifiers>
+</GameData>

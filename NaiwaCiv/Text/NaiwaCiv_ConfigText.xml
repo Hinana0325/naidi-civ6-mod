@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ===== 简体中文 ===== -->
+		<Row Tag="LOC_CIVILIZATION_NAIWA_NAME" Language="zh_Hans_CN"><Text>奶家</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_NAIWA_DESCRIPTION" Language="zh_Hans_CN"><Text>万物皆可奶。</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_NAIWA_ADJECTIVE" Language="zh_Hans_CN"><Text>奶家的</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_NAME" Language="zh_Hans_CN"><Text>奶帝</Text></Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_NAIWA_NAME" Language="zh_Hans_CN"><Text>万物皆可奶</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_NAIWA_DESCRIPTION" Language="zh_Hans_CN"><Text>所有城市 +1 食物。什么都能拿来奶一口。</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_NAIDI_NAME" Language="zh_Hans_CN"><Text>奶魂觉醒</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_NAIDI_DESCRIPTION" Language="zh_Hans_CN"><Text>所有城市 +1 生产力。觉醒的部位越重要，实力就越强。</Text></Row>
+
+		<!-- ===== 特色兵种 ===== -->
+		<Row Tag="LOC_UNIT_NAIWA_DOG_NAME" Language="zh_Hans_CN"><Text>奶狗</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_DOG_DESCRIPTION" Language="zh_Hans_CN"><Text>奶家的侦察单位，代替侦察兵。智商不高但嗅觉敏锐，会打滚转圈大笑。视野 4、移动力 3。</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_EGG_NAME" Language="zh_Hans_CN"><Text>奶蛋</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_EGG_DESCRIPTION" Language="zh_Hans_CN"><Text>奶家的近战单位，代替勇士。圆滚滚一只，据说在部分投票里能和奶蛙掰手腕。造价更低。</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_HEADER" Language="zh_Hans_CN"><Text>奶家之主</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_CAPTION" Language="zh_Hans_CN"><Text>至高无上的奶帝</Text></Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAIDI" Language="zh_Hans_CN"><Text>奶帝登基</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_QUOTE" Language="zh_Hans_CN"><Text>觉醒头部奶魂者，方可成就至高无上的奶帝之位。</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_CHICKEN_NAME" Language="zh_Hans_CN"><Text>奶鸡</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_CHICKEN_DESCRIPTION" Language="zh_Hans_CN"><Text>奶家的建造单位，代替建造者。奶鸡能下奶蛋，建造次数比建造者多一次。</Text></Row>
+
+		<!-- ===== English ===== -->
+		<Row Tag="LOC_CIVILIZATION_NAIWA_NAME" Language="en_US"><Text>The Nai Family</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_NAIWA_DESCRIPTION" Language="en_US"><Text>Anything can be Nai'd.</Text></Row>
+		<Row Tag="LOC_CIVILIZATION_NAIWA_ADJECTIVE" Language="en_US"><Text>Nai</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_NAME" Language="en_US"><Text>Nai Di</Text></Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_NAIWA_NAME" Language="en_US"><Text>Anything Can Be Nai'd</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_NAIWA_DESCRIPTION" Language="en_US"><Text>All cities receive +1 Food.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_NAIDI_NAME" Language="en_US"><Text>Milk Soul Awakening</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_NAIDI_DESCRIPTION" Language="en_US"><Text>All cities receive +1 Production.</Text></Row>
+
+		<Row Tag="LOC_UNIT_NAIWA_DOG_NAME" Language="en_US"><Text>Nai Dog</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_DOG_DESCRIPTION" Language="en_US"><Text>Replaces the Scout. Higher sight and movement.</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_EGG_NAME" Language="en_US"><Text>Nai Egg</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_EGG_DESCRIPTION" Language="en_US"><Text>Replaces the Warrior. Cheaper to build.</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_HEADER" Language="en_US"><Text>Lord of the Nai Family</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_CAPTION" Language="en_US"><Text>Supreme Nai Di</Text></Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAIDI" Language="en_US"><Text>The Nai Emperor Ascends</Text></Row>
+		<Row Tag="LOC_LEADER_NAIDI_QUOTE" Language="en_US"><Text>Only he who awakens a milk soul in his head may ascend to the supreme seat of Nai Di.</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_CHICKEN_NAME" Language="en_US"><Text>Nai Chicken</Text></Row>
+		<Row Tag="LOC_UNIT_NAIWA_CHICKEN_DESCRIPTION" Language="en_US"><Text>Replaces the Builder. One extra build charge.</Text></Row>
+	</LocalizedText>
+</GameData>

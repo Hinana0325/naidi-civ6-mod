@@ -1,0 +1,31 @@
+# 构建中间产物与调试脚本
+build_art.log
+NaiwaCiv/cooker.log
+*.zip
+ExampleCiv/
+
+# BMP 中间稿（体积大，可由 PNG 重新导出）
+NaiwaCiv/Art/_bmp/
+
+# 早期试验留下的重复 DDS / 裁切稿（正式贴图只保留 Textures/ 下的）
+NaiwaCiv/Art/*.dds
+NaiwaCiv/Art/naidi_portrait_768x1024.png
+NaiwaCiv/Art/naidi_background_1280x1000.png
+NaiwaCiv/Art/naidi_cutout.png
+NaiwaCiv/Art/nadi_raw.png
+NaiwaCiv/Art/leader_raw.png
+
+# 一次性排查脚本
+db_front.py
+db_gameplay2.py
+db_probe.py
+inspect_*.py
+list_leader_tables.py
+read_save.py
+validate_against_schema.py
+enable_mod.py
+
+# 系统杂物
+Thumbs.db
+desktop.ini
+.DS_Store

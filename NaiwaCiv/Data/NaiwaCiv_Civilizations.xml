@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_NAIWA" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_NAIWA" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_NAIWA" Name="LOC_TRAIT_CIVILIZATION_NAIWA_NAME" Description="LOC_TRAIT_CIVILIZATION_NAIWA_DESCRIPTION" />
+	</Traits>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_NAIWA</CivilizationType>
+			<Name>LOC_CIVILIZATION_NAIWA_NAME</Name>
+			<Description>LOC_CIVILIZATION_NAIWA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_NAIWA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_NAIWA" LeaderType="LEADER_NAIDI" CapitalName="LOC_CITY_NAME_NAIWA_1" />
+	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_NAIWA" />
+	</CivilizationTraits>
+
+	<!-- 文明特性「万物皆可奶」：所有城市 +1 食物 -->
+	<Modifiers>
+		<Row ModifierId="MOD_NAIWA_CITY_FOOD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" />
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="MOD_NAIWA_CITY_FOOD" Name="YieldType" Value="YIELD_FOOD" />
+		<Row ModifierId="MOD_NAIWA_CITY_FOOD" Name="Amount" Value="1" />
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_NAIWA" ModifierId="MOD_NAIWA_CITY_FOOD" />
+	</TraitModifiers>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_1" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_2" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_3" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_4" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_5" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_6" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_7" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" CityName="LOC_CITY_NAME_NAIWA_8" />
+	</CityNames>
+</GameData>

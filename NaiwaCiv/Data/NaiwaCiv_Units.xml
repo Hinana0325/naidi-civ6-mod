@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ================= 特色兵种：奶家成员 ================= -->
+	<Types>
+		<Row Type="UNIT_NAIWA_DOG" Kind="KIND_UNIT" />
+		<Row Type="UNIT_NAIWA_EGG" Kind="KIND_UNIT" />
+		<Row Type="UNIT_NAIWA_CHICKEN" Kind="KIND_UNIT" />
+
+		<Row Type="TRAIT_CIVILIZATION_UNIT_NAIWA_DOG" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_NAIWA_EGG" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" Kind="KIND_TRAIT" />
+	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_DOG" Name="LOC_UNIT_NAIWA_DOG_NAME" Description="LOC_UNIT_NAIWA_DOG_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_EGG" Name="LOC_UNIT_NAIWA_EGG_NAME" Description="LOC_UNIT_NAIWA_EGG_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" Name="LOC_UNIT_NAIWA_CHICKEN_NAME" Description="LOC_UNIT_NAIWA_CHICKEN_DESCRIPTION" />
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_DOG" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_EGG" />
+		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" />
+	</CivilizationTraits>
+
+	<!-- 奶狗：侦察兵基底，视野 4（比侦察兵多 2），其余照抄 -->
+	<Units>
+		<Row UnitType="UNIT_NAIWA_DOG"
+			   Name="LOC_UNIT_NAIWA_DOG_NAME"
+			   Description="LOC_UNIT_NAIWA_DOG_DESCRIPTION"
+			   Cost="30"
+			   Maintenance="0"
+			   Combat="10"
+			   BaseMoves="3"
+			   BaseSightRange="4"
+			   ZoneOfControl="true"
+			   Domain="DOMAIN_LAND"
+			   FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			   PromotionClass="PROMOTION_CLASS_RECON"
+			   AdvisorType="ADVISOR_GENERIC"
+			   PurchaseYield="YIELD_GOLD"
+			   PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
+			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_DOG" />
+
+		<!-- 奶蛋：勇士基底，造价 30（比勇士便宜 10） -->
+		<Row UnitType="UNIT_NAIWA_EGG"
+			   Name="LOC_UNIT_NAIWA_EGG_NAME"
+			   Description="LOC_UNIT_NAIWA_EGG_DESCRIPTION"
+			   Cost="30"
+			   Maintenance="0"
+			   Combat="20"
+			   BaseMoves="2"
+			   BaseSightRange="2"
+			   ZoneOfControl="true"
+			   Domain="DOMAIN_LAND"
+			   FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			   PromotionClass="PROMOTION_CLASS_MELEE"
+			   AdvisorType="ADVISOR_CONQUEST"
+			   PurchaseYield="YIELD_GOLD"
+			   MandatoryObsoleteTech="TECH_GUNPOWDER"
+			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_EGG" />
+
+		<!-- 奶鸡：建造者基底，建造次数 4（比建造者多 1），无战斗力 -->
+		<Row UnitType="UNIT_NAIWA_CHICKEN"
+			   Name="LOC_UNIT_NAIWA_CHICKEN_NAME"
+			   Description="LOC_UNIT_NAIWA_CHICKEN_DESCRIPTION"
+			   Cost="50"
+			   Maintenance="0"
+			   BaseMoves="2"
+			   BaseSightRange="2"
+			   ZoneOfControl="false"
+			   Domain="DOMAIN_LAND"
+			   FormationClass="FORMATION_CLASS_CIVILIAN"
+			   AdvisorType="ADVISOR_GENERIC"
+			   PurchaseYield="YIELD_GOLD"
+			   CanCapture="False"
+			   CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES"
+			   CostProgressionParam1="4"
+			   BuildCharges="4"
+			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" />
+	</Units>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_NAIWA_DOG" AiType="UNITAI_EXPLORE" />
+		<Row UnitType="UNIT_NAIWA_DOG" AiType="UNITTYPE_LAND_COMBAT" />
+
+		<Row UnitType="UNIT_NAIWA_EGG" AiType="UNITAI_COMBAT" />
+		<Row UnitType="UNIT_NAIWA_EGG" AiType="UNITAI_EXPLORE" />
+		<Row UnitType="UNIT_NAIWA_EGG" AiType="UNITTYPE_MELEE" />
+		<Row UnitType="UNIT_NAIWA_EGG" AiType="UNITTYPE_LAND_COMBAT" />
+
+		<Row UnitType="UNIT_NAIWA_CHICKEN" AiType="UNITAI_BUILD" />
+		<Row UnitType="UNIT_NAIWA_CHICKEN" AiType="UNITTYPE_CIVILIAN" />
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_NAIWA_DOG" Tag="CLASS_RECON" />
+		<Row Type="UNIT_NAIWA_DOG" Tag="CLASS_REVEAL_STEALTH" />
+		<Row Type="UNIT_NAIWA_EGG" Tag="CLASS_MELEE" />
+		<Row Type="UNIT_NAIWA_CHICKEN" Tag="CLASS_LANDCIVILIAN" />
+		<Row Type="UNIT_NAIWA_CHICKEN" Tag="CLASS_BUILDER" />
+	</TypeTags>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_NAIWA_DOG" ReplacesUnitType="UNIT_SCOUT" />
+		<Row CivUniqueUnitType="UNIT_NAIWA_EGG" ReplacesUnitType="UNIT_WARRIOR" />
+		<Row CivUniqueUnitType="UNIT_NAIWA_CHICKEN" ReplacesUnitType="UNIT_BUILDER" />
+	</UnitReplaces>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_NAIWA_DOG" UpgradeUnit="UNIT_RANGER" />
+		<Row Unit="UNIT_NAIWA_EGG" UpgradeUnit="UNIT_SWORDSMAN" />
+	</UnitUpgrades>
+</GameData>
