@@ -50,14 +50,14 @@
 		<Row LeaderType="LEADER_NAIDI" ReligionType="RELIGION_PROTESTANTISM" />
 	</FavoredReligions>
 
-	<!-- 领袖特性「奶魂觉醒」：所有城市 +1 生产力 -->
+	<!-- 领袖特性「奶魂觉醒」：所有城市 +2 生产力 -->
 	<Modifiers>
 		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" />
 	</Modifiers>
 
 	<ModifierArguments>
 		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION" />
-		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" Name="Amount" Value="1" />
+		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" Name="Amount" Value="2" />
 	</ModifierArguments>
 
 	<TraitModifiers>

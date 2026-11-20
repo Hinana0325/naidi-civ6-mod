@@ -23,14 +23,14 @@
 		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" />
 	</CivilizationTraits>
 
-	<!-- 奶狗：侦察兵基底，视野 4、移动 4 -->
+	<!-- 奶狗：侦察兵基底，战力 13（比侦察强 30%）、视野 4、移动 4 -->
 	<Units>
 		<Row UnitType="UNIT_NAIWA_DOG"
 			   Name="LOC_UNIT_NAIWA_DOG_NAME"
 			   Description="LOC_UNIT_NAIWA_DOG_DESCRIPTION"
 			   Cost="30"
 			   Maintenance="0"
-			   Combat="10"
+			   Combat="13"
 			   BaseMoves="4"
 			   BaseSightRange="4"
 			   ZoneOfControl="true"
@@ -42,13 +42,13 @@
 			   PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
 			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_DOG" />
 
-		<!-- 奶蛋：勇士基底，造价 30、战力 24（比勇士强 4） -->
+		<!-- 奶蛋：勇士基底，造价 30、战力 31（比勇士强 55%） -->
 		<Row UnitType="UNIT_NAIWA_EGG"
 			   Name="LOC_UNIT_NAIWA_EGG_NAME"
 			   Description="LOC_UNIT_NAIWA_EGG_DESCRIPTION"
 			   Cost="30"
 			   Maintenance="0"
-			   Combat="24"
+			   Combat="31"
 			   BaseMoves="2"
 			   BaseSightRange="2"
 			   ZoneOfControl="true"
@@ -60,7 +60,7 @@
 			   MandatoryObsoleteTech="TECH_GUNPOWDER"
 			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_EGG" />
 
-		<!-- 奶鸡：建造者基底，建造次数 4（比建造者多 1），无战斗力 -->
+		<!-- 奶鸡：建造者基底，建造次数 6（比建造者多 3），无战斗力 -->
 		<Row UnitType="UNIT_NAIWA_CHICKEN"
 			   Name="LOC_UNIT_NAIWA_CHICKEN_NAME"
 			   Description="LOC_UNIT_NAIWA_CHICKEN_DESCRIPTION"
@@ -76,7 +76,7 @@
 			   CanCapture="False"
 			   CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES"
 			   CostProgressionParam1="4"
-			   BuildCharges="4"
+			   BuildCharges="6"
 			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" />
 	</Units>
 

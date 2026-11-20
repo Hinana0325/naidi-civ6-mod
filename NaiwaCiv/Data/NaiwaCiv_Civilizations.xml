@@ -29,7 +29,7 @@
 		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_NAIWA" />
 	</CivilizationTraits>
 
-	<!-- 文明特性「万物皆可奶」：所有城市 +2 食物、+1 文化 -->
+	<!-- 文明特性「万物皆可奶」：所有城市 +4 食物、+2 文化 -->
 	<Modifiers>
 		<Row ModifierId="MOD_NAIWA_CITY_FOOD" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" />
 		<Row ModifierId="MOD_NAIWA_CITY_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" />
@@ -37,9 +37,9 @@
 
 	<ModifierArguments>
 		<Row ModifierId="MOD_NAIWA_CITY_FOOD" Name="YieldType" Value="YIELD_FOOD" />
-		<Row ModifierId="MOD_NAIWA_CITY_FOOD" Name="Amount" Value="2" />
+		<Row ModifierId="MOD_NAIWA_CITY_FOOD" Name="Amount" Value="4" />
 		<Row ModifierId="MOD_NAIWA_CITY_CULTURE" Name="YieldType" Value="YIELD_CULTURE" />
-		<Row ModifierId="MOD_NAIWA_CITY_CULTURE" Name="Amount" Value="1" />
+		<Row ModifierId="MOD_NAIWA_CITY_CULTURE" Name="Amount" Value="2" />
 	</ModifierArguments>
 
 	<TraitModifiers>

@@ -25,8 +25,37 @@
 		<Row Name="ICON_ATLAS_NAIWA_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_LEADER_NAIWA_256.dds" />
 	</IconTextureAtlases>
 
+	<!-- 兵种图标：奶家成员抠像（来自《奶家族谱》原图） -->
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_DOG" IconSize="26" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_DOG_26.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_DOG" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_DOG_32.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_DOG" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_DOG_38.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_DOG" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_DOG_45.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_DOG" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_DOG_50.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_DOG" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_DOG_256.dds" />
+	</IconTextureAtlases>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_EGG" IconSize="26" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_EGG_26.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_EGG" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_EGG_32.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_EGG" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_EGG_38.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_EGG" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_EGG_45.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_EGG" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_EGG_50.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_EGG" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_EGG_256.dds" />
+	</IconTextureAtlases>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_CHICKEN" IconSize="26" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_CHICKEN_26.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_CHICKEN" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_CHICKEN_32.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_CHICKEN" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_CHICKEN_38.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_CHICKEN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_CHICKEN_45.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_CHICKEN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_CHICKEN_50.dds" />
+		<Row Name="ICON_ATLAS_UNIT_NAIWA_CHICKEN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icons/ICON_UNIT_NAIWA_CHICKEN_256.dds" />
+	</IconTextureAtlases>
+
 	<IconDefinitions>
 		<Row Name="ICON_CIVILIZATION_NAIWA" Atlas="ICON_ATLAS_NAIWA_CIV" Index="0" />
 		<Row Name="ICON_LEADER_NAIWA" Atlas="ICON_ATLAS_NAIWA_LEADER" Index="0" />
+		<Row Name="ICON_UNIT_NAIWA_DOG" Atlas="ICON_ATLAS_UNIT_NAIWA_DOG" Index="0" />
+		<Row Name="ICON_UNIT_NAIWA_EGG" Atlas="ICON_ATLAS_UNIT_NAIWA_EGG" Index="0" />
+		<Row Name="ICON_UNIT_NAIWA_CHICKEN" Atlas="ICON_ATLAS_UNIT_NAIWA_CHICKEN" Index="0" />
 	</IconDefinitions>
 </GameData>

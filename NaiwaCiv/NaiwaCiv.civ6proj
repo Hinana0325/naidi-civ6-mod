@@ -6,9 +6,9 @@
     <Authors>jq200</Authors>
     <Guid>290AF11F-24C4-4091-B8A1-F988D6004C09</Guid>
     <ProjectGuid>466A0488-DA7B-4F36-80D6-9D9B0BFF8606</ProjectGuid>
-    <ModVersion>3</ModVersion>
+    <ModVersion>4</ModVersion>
     <Teaser>奶帝登基，万物皆可奶。</Teaser>
-    <Description>「奶帝」网络梗文明：领袖奶帝（奶魂觉醒：所有城市 +1 生产力），文明奶家（万物皆可奶：所有城市 +2 食物、+1 文化）。三个特色兵种：奶狗（视野4/移动4 侦察）、奶蛋（战力24 近战，造价更低）、奶鸡（建造次数4）。首都奶蛙大学，含领袖立绘、加载页、自定义议程「奶化世界」。</Description>
+    <Description>「奶帝」网络梗文明：领袖奶帝（奶魂觉醒：所有城市 +2 生产力），文明奶家（万物皆可奶：所有城市 +4 食物、+2 文化）。三个特色兵种：奶狗（战力13/视野4/移动4 侦察）、奶蛋（战力31 近战，造价更低）、奶鸡（建造次数6）。首都奶蛙大学，含领袖立绘、加载页、兵种图标与自定义议程「奶化世界」。</Description>
     <AffectsSavedGames>false</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -45,9 +45,28 @@
     <Content Include="Icons\ICON_LEADER_NAIWA_55.dds" />
     <Content Include="Icons\ICON_LEADER_NAIWA_64.dds" />
     <Content Include="Icons\ICON_LEADER_NAIWA_80.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_DOG_26.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_DOG_32.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_DOG_38.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_DOG_45.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_DOG_50.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_DOG_256.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_EGG_26.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_EGG_32.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_EGG_38.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_EGG_45.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_EGG_50.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_EGG_256.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_CHICKEN_26.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_CHICKEN_32.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_CHICKEN_38.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_CHICKEN_45.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_CHICKEN_50.dds" />
+    <Content Include="Icons\ICON_UNIT_NAIWA_CHICKEN_256.dds" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ArtDefs\FallbackLeaders.artdef" />
+    <Content Include="ArtDefs\Units.artdef" />
     <Content Include="XLPs\UILeaders.xlp" />
     <Content Include="XLPs\LeaderFallbacks.xlp" />
     <Content Include="Textures\FALLBACK_NEUTRAL_NAIDI.dds" />
