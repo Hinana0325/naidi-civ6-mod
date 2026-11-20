@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="290AF11F-24C4-4091-B8A1-F988D6004C09" version="1">
+<Mod id="290AF11F-24C4-4091-B8A1-F988D6004C09" version="3">
 	<Properties>
-		<Name>奶家（奶蛙）</Name>
-		<Teaser>奶蛙梗文明：万物皆可奶</Teaser>
-		<Description>以奶蛙为主题的文明 6 模组：所有城市 +1 食物、+1 文化，首都奶蛙大学。</Description>
+		<Name>奶家 · 奶帝</Name>
+		<Teaser>奶帝登基，万物皆可奶。</Teaser>
+		<Description>「奶帝」网络梗文明：领袖奶帝（奶魂觉醒：所有城市 +1 生产力），文明奶家（万物皆可奶：所有城市 +2 食物、+1 文化）。三个特色兵种奶狗（视野4/移动4侦察）、奶蛋（战力24近战，造价更低）、奶鸡（建造次数4），首都奶蛙大学，含领袖立绘、加载页与自定义议程「奶化世界」。</Description>
 		<Authors>jq200</Authors>
 		<EnabledByDefault>0</EnabledByDefault>
-		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+		<CompatibleVersions>1.2,2.0,3.0</CompatibleVersions>
+		<AffectsSavedGames>0</AffectsSavedGames>
 	</Properties>
 	<InGameActions>
 		<UpdateDatabase id="NaiwaGameplay">

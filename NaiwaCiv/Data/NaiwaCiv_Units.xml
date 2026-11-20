@@ -23,7 +23,7 @@
 		<Row CivilizationType="CIVILIZATION_NAIWA" TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_CHICKEN" />
 	</CivilizationTraits>
 
-	<!-- 奶狗：侦察兵基底，视野 4（比侦察兵多 2），其余照抄 -->
+	<!-- 奶狗：侦察兵基底，视野 4、移动 4 -->
 	<Units>
 		<Row UnitType="UNIT_NAIWA_DOG"
 			   Name="LOC_UNIT_NAIWA_DOG_NAME"
@@ -31,7 +31,7 @@
 			   Cost="30"
 			   Maintenance="0"
 			   Combat="10"
-			   BaseMoves="3"
+			   BaseMoves="4"
 			   BaseSightRange="4"
 			   ZoneOfControl="true"
 			   Domain="DOMAIN_LAND"
@@ -42,13 +42,13 @@
 			   PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
 			   TraitType="TRAIT_CIVILIZATION_UNIT_NAIWA_DOG" />
 
-		<!-- 奶蛋：勇士基底，造价 30（比勇士便宜 10） -->
+		<!-- 奶蛋：勇士基底，造价 30、战力 24（比勇士强 4） -->
 		<Row UnitType="UNIT_NAIWA_EGG"
 			   Name="LOC_UNIT_NAIWA_EGG_NAME"
 			   Description="LOC_UNIT_NAIWA_EGG_DESCRIPTION"
 			   Cost="30"
 			   Maintenance="0"
-			   Combat="20"
+			   Combat="24"
 			   BaseMoves="2"
 			   BaseSightRange="2"
 			   ZoneOfControl="true"

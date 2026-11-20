@@ -2,14 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>奶家（奶帝）</Name>
+    <Name>奶家 · 奶帝</Name>
     <Authors>jq200</Authors>
     <Guid>290AF11F-24C4-4091-B8A1-F988D6004C09</Guid>
     <ProjectGuid>466A0488-DA7B-4F36-80D6-9D9B0BFF8606</ProjectGuid>
-    <ModVersion>1</ModVersion>
-    <Teaser>奶帝登基：万物皆可奶，奶魂觉醒</Teaser>
-    <Description>以「奶帝」为主题的文明 6 模组：文明奶家，领袖奶帝。所有城市 +1 食物、+1 生产力；特色兵种奶狗、奶蛋、奶鸡；首都奶蛙大学。</Description>
-    <AffectsSavedGames>true</AffectsSavedGames>
+    <ModVersion>3</ModVersion>
+    <Teaser>奶帝登基，万物皆可奶。</Teaser>
+    <Description>「奶帝」网络梗文明：领袖奶帝（奶魂觉醒：所有城市 +1 生产力），文明奶家（万物皆可奶：所有城市 +2 食物、+1 文化）。三个特色兵种：奶狗（视野4/移动4 侦察）、奶蛋（战力24 近战，造价更低）、奶鸡（建造次数4）。首都奶蛙大学，含领袖立绘、加载页、自定义议程「奶化世界」。</Description>
+    <AffectsSavedGames>false</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>

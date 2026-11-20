@@ -32,6 +32,24 @@
 		<Row LeaderType="LEADER_NAIDI" ForegroundImage="LEADER_NAIDI_NEUTRAL" BackgroundImage="LEADER_NAIDI_BACKGROUND" LeaderText="LOC_LOADING_INFO_LEADER_NAIDI" PlayDawnOfManAudio="0" />
 	</LoadingInfo>
 
+	<!-- 领袖议程「奶化世界」：AI 偏好食物产出高的文明（复用官方食物偏好特质） -->
+	<Agendas>
+		<Row AgendaType="AGENDA_NAIDI" Name="LOC_AGENDA_NAIDI_NAME" Description="LOC_AGENDA_NAIDI_DESCRIPTION" />
+	</Agendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_NAIDI" TraitType="TRAIT_AGENDA_PREFER_POPULATION" />
+	</AgendaTraits>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_NAIDI" AgendaType="AGENDA_NAIDI" />
+	</HistoricalAgendas>
+
+	<!-- 偏好宗教：新教（教堂里也供奶） -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_NAIDI" ReligionType="RELIGION_PROTESTANTISM" />
+	</FavoredReligions>
+
 	<!-- 领袖特性「奶魂觉醒」：所有城市 +1 生产力 -->
 	<Modifiers>
 		<Row ModifierId="MOD_NAIDI_CITY_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE" />
